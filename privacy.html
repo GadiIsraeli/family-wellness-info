@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · Family Wellness Monitor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><strong>Family Wellness Monitor</strong><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></header>
+<main><h1>Privacy policy</h1>
+<p>Last updated: September 21, 2026. This notice covers the private Family Wellness Monitor application and this informational website.</p>
+<h2>Current version</h2>
+<p>The current local application does not connect to Oura, collect Oura measurements or send Telegram notifications. It creates a local SQLite database for synchronization status. Its server records operational events and may record request metadata in access logs.</p>
+<h2>Planned collection and purpose</h2>
+<p>Once implemented and authorized by the account holder, the application will request heart-rate data, daily sleep/readiness/activity information and available overnight SpO2 data. It will store measurement times, synchronization status and wellness check-in alerts to support private family viewing and data-freshness monitoring.</p>
+<p>OAuth access and refresh tokens will be stored locally to maintain the authorized connection. The application will not ask for the account holder’s Oura password. Account identification will be used only if available through the permissions actually granted.</p>
+<h2>Storage and access</h2>
+<p>The operator will keep measurements and credentials on their own computer, with access limited to the operator and family members authorized by the account holder. SQLite is not encrypted by the application. Device protection and any backup protection are the operator’s responsibility. Health information will not be placed in this public website or its repository.</p>
+<h2>Sharing and optional notifications</h2>
+<p>The project does not sell data or use it for advertising. Oura processes ring data under its own policies. If Telegram notifications are implemented and enabled with the account holder’s agreement, alert text, potentially including health values and timestamps, will be sent through Telegram to the configured recipient. Telegram has its own data-handling policies; those notifications will no longer be confined to the local computer.</p>
+<h2>Retention, disconnection and deletion</h2>
+<p>Once collection is available, historical records will remain until the operator deletes them; automatic expiry is not currently provided. The account holder may ask the operator to stop collection or delete local records, credentials and operator-controlled backups. Revoking access in Oura stops future authorized access but does not delete records already collected. Copies in Telegram and independently retained backups require separate deletion.</p>
+<h2>This public website</h2>
+<p>These static pages include no analytics scripts, advertising, forms or application cookies. When hosted on GitHub Pages, GitHub receives technical request information such as IP addresses under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>. No Oura data is needed to view these pages.</p>
+<h2>Questions and changes</h2>
+<p>Contact the operator using the email below for access, correction, deletion or privacy questions. This notice must be updated before enabling features that change how data is handled.</p></main>
+<footer><p>Operator: <strong>Gadi Israeli</strong><br>Contact: <a href="mailto:gadi.israeli@gmail.com">gadi.israeli@gmail.com</a></p><p>Private family wellness project · Not a medical or emergency service.</p></footer>
+</body>
+</html>
